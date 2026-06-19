@@ -1,0 +1,87 @@
+html {
+}
+
+/* REEMPLAZA EL CSS ANTERIOR EN TU STYLES.CSS POR ESTE BLOQUE */
+
+/* 1. Estado base: Fondo blanco con la sombra rígida negra hacia afuera */
+
+.bloque-interactivo {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px 0px #000000 !important;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+/* 2. Efecto HOVER: Al apoyar el cursor, todo el bloque se vuelve negro puro */
+
+.bloque-interactivo:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  box-shadow: 0px 0px 0px 0px #000000 !important;
+  transform: translate(3px, 3px);
+}
+
+/* 3. Ajuste automático para los títulos (H4) cuando pasas el cursor */
+
+.bloque-interactivo:hover h4 {
+  color: #a3e635 !important;
+}
+
+/* 4. Ajuste automático para los párrafos (P) cuando pasas el cursor */
+
+.bloque-interactivo:hover p {
+  color: #e2e8f0 !important;
+}
+
+.navbar {
+}
+
+/* --- ESTILO BRUTALISTA PARA LA GALERÍA DE FOTOS --- */
+
+/* Contenedor de la foto con marco negro y sombra rígida */
+
+.foto-brutal {
+  border: 3px solid #000000 !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 6px 6px 0px 0px #000000 !important;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Efecto Hover: La foto se "hunde" hacia donde estaba la sombra */
+
+.foto-brutal:hover {
+  box-shadow: 0px 0px 0px 0px #000000 !important;
+  transform: translate(4px, 4px);
+}
+
+/* Mantiene las imágenes proporcionadas y con un filtro sutil que cambia al pasar el cursor */
+
+.foto-brutal img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: filter 0.2s ease;
+}
+
+/* Opcional: Si quieres que las fotos se enciendan un poco más al apoyar el cursor */
+
+.foto-brutal:hover img {
+  filter: brightness(1.05);
+}
+
+..custom-hover-card {
+}
+
+.container {
+}
+
+div {
+}
+
